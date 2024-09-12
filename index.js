@@ -1,11 +1,11 @@
-precio = 400000;
-cantidad = 0;
-precioSpan = document.querySelector(".precio-inicial");
+const precio = 400000;
+let cantidad = 0;
+let precioSpan = document.querySelector(".precio-inicial");
 precioSpan.innerHTML = precio;
-numElementos = document.querySelector(".cantidad");
-suma = document.querySelector(".sum");
-resta = document.querySelector(".res");
-valorTotal = document.querySelector(".valor-total");
+let numElementos = document.querySelector(".cantidad");
+let suma = document.querySelector(".sum");
+let resta = document.querySelector(".res");
+let valorTotal = document.querySelector(".valor-total");
 
 
 suma.addEventListener('click', () => {
